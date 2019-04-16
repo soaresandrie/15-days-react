@@ -8,7 +8,8 @@
 //   }
 // }
 import React from 'react'
+import SquareCollab from './components/SquareCollab'
 
-const App = () => <h1>Go 15 days of React</h1>
+const App = () => <SquareCollab />
 
 export default App;
