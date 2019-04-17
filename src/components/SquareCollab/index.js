@@ -1,13 +1,11 @@
 import React from 'react'
 import './styles.css'
 
-const handleClick = () => {
-    console.log("Foi!!!")
-}
+const handleClick = texto => () => console.log(texto)
 
 const SquareCollab = () => (
     <button 
-        onClick={handleClick} 
+        onClick={handleClick("Foi de Novo!!!")} 
         className="square-collab">X</button>
 )
 
