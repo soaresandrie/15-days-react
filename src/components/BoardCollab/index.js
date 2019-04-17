@@ -6,7 +6,7 @@ const squareCollabs = qtd =>{
     const squares = []
 
     while (max--) {
-        squares.push(<SquareCollab />)
+        squares.push(<SquareCollab key={max} />)
     }
     return squares
 }
