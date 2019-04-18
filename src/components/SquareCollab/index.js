@@ -7,6 +7,7 @@ const SquareCollab = () => (
     <button 
         onClick={handleClick("Foi de Novo!!!")} 
         className="square-collab">X</button>
+        
 )
 
 export default SquareCollab
